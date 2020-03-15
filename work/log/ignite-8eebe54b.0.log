@@ -1,0 +1,205 @@
+[17:48:19,161][INFO][main][IgniteKernal] 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 2.6.0#19691231-sha1:DEV
+>>> 2018 Copyright(C) Apache Software Foundation
+>>> 
+>>> Ignite documentation: http://ignite.apache.org
+
+[17:48:19,195][INFO][main][IgniteKernal] Config URL: file:/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/config/default-config.xml
+[17:48:19,267][INFO][main][IgniteKernal] IgniteConfiguration [igniteInstanceName=null, pubPoolSize=8, svcPoolSize=8, callbackPoolSize=8, stripedPoolSize=8, sysPoolSize=8, mgmtPoolSize=4, igfsPoolSize=1, dataStreamerPoolSize=8, utilityCachePoolSize=8, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=8, igniteHome=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New, igniteWorkDir=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@48a242ce, nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, marsh=org.apache.ignite.internal.binary.BinaryMarshaller@fbd1f6, marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, sockTimeout=0, ackTimeout=0, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null], segPlc=STOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=null, connPlc=null, enableForcibleNodeKill=false, enableTroubleshootingLog=false, srvLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi$2@61322f9d, locAddr=null, locHost=null, locPort=47100, locPortRange=100, shmemPort=-1, directBuf=true, directSndBuf=false, idleConnTimeout=600000, connTimeout=5000, maxConnTimeout=600000, reconCnt=10, sockSndBuf=32768, sockRcvBuf=32768, msgQueueLimit=0, slowClientQueueLimit=0, nioSrvr=null, shmemSrv=null, usePairedConnections=false, connectionsPerNode=1, tcpNoDelay=true, filterReachableAddresses=false, ackSndThreshold=32, unackedMsgsBufSize=0, sockWriteTimeout=2000, lsnr=null, boundTcpPort=-1, boundTcpShmemPort=-1, selectorsCnt=4, selectorSpins=0, addrRslvr=null, ctxInitLatch=java.util.concurrent.CountDownLatch@6ad82709[Count = 1], stopping=false, metricsLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationMetricsListener@510f3d34], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@7817fd62, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [lsnr=null], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@fa4c865, addrRslvr=null, clientMode=false, rebalanceThreadPoolSize=1, txCfg=org.apache.ignite.configuration.TransactionConfiguration@3bd82cf5, cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, clientFailureDetectionTimeout=30000, metricsLogFreq=60000, hadoopCfg=null, connectorCfg=org.apache.ignite.configuration.ConnectorConfiguration@544fa968, odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=null, binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=DataStorageConfiguration [sysRegionInitSize=41943040, sysCacheMaxSize=104857600, pageSize=8192, concLvl=4, dfltDataRegConf=DataRegionConfiguration [name=default, maxSize=4294967296, initSize=524288000, swapPath=null, pageEvictionMode=DISABLED, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=true, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=true, checkpointPageBufSize=0], storagePath=null, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, walSegments=10, walSegmentSize=67108864, walPath=db/wal, walArchivePath=db/wal/archive, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=131072, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.AsyncFileIOFactory@d35dea7, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, writeThrottlingEnabled=false, walCompactionEnabled=false], activeOnStart=true, autoActivation=true, longQryWarnTimeout=3000, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=8, idleTimeout=0, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null], authEnabled=false, failureHnd=null, commFailureRslvr=null]
+[17:48:19,267][INFO][main][IgniteKernal] Daemon mode: off
+[17:48:19,267][INFO][main][IgniteKernal] OS: Linux 3.19.0-47-generic amd64
+[17:48:19,267][INFO][main][IgniteKernal] OS user: bigdata
+[17:48:19,269][INFO][main][IgniteKernal] PID: 5542
+[17:48:19,269][INFO][main][IgniteKernal] Language runtime: Java Platform API Specification ver. 1.8
+[17:48:19,269][INFO][main][IgniteKernal] VM information: Java(TM) SE Runtime Environment 1.8.0_65-b17 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.65-b01
+[17:48:19,270][INFO][main][IgniteKernal] VM total memory: 0.97GB
+[17:48:19,270][INFO][main][IgniteKernal] Remote Management [restart: off, REST: on, JMX (remote: off)]
+[17:48:19,270][INFO][main][IgniteKernal] Logger: JavaLogger [quiet=true, config=null]
+[17:48:19,270][INFO][main][IgniteKernal] IGNITE_HOME=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New
+[17:48:19,271][INFO][main][IgniteKernal] VM arguments: [-Xmx1g, -Xms1g]
+[17:48:19,271][INFO][main][IgniteKernal] System cache's DataRegion size is configured to 40 MB. Use DataStorageConfiguration.systemCacheMemorySize property to change the setting.
+[17:48:19,336][INFO][main][IgniteKernal] Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache']]
+[17:48:19,378][INFO][main][IgniteKernal] 3-rd party licenses can be found at: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/libs/licenses
+[17:48:19,514][INFO][main][IgnitePluginProcessor] Configured plugins:
+[17:48:19,514][INFO][main][IgnitePluginProcessor]   ^-- None
+[17:48:19,514][INFO][main][IgnitePluginProcessor] 
+[17:48:19,534][INFO][main][FailureProcessor] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0]]
+[17:48:19,688][INFO][main][TcpCommunicationSpi] Successfully bound communication NIO server to TCP port [port=47100, locHost=0.0.0.0/0.0.0.0, selectorsCnt=4, selectorSpins=0, pairedConn=false]
+[17:48:24,767][WARNING][main][TcpCommunicationSpi] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[17:48:24,845][WARNING][main][NoopCheckpointSpi] Checkpoints are disabled (to enable configure any GridCheckpointSpi implementation)
+[17:48:24,876][WARNING][main][GridCollisionManager] Collision resolution is disabled (all jobs will be activated upon arrival).
+[17:48:24,877][INFO][main][IgniteKernal] Security status [authentication=off, tls/ssl=off]
+[17:48:24,980][INFO][main][TcpDiscoverySpi] Successfully bound to TCP port [port=47500, localHost=0.0.0.0/0.0.0.0, locNodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513]
+[17:48:25,038][INFO][main][PdsFoldersResolver] Successfully created new persistent storage folder [/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1]
+[17:48:25,039][INFO][main][PdsFoldersResolver] Consistent ID used for local node is [50cb028d-a4c5-4f6f-a569-4a39ed62eea1] according to persistence data storage folders
+[17:48:25,040][INFO][main][CacheObjectBinaryProcessorImpl] Resolved directory for serialized binary metadata: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/binary_meta/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:48:25,402][INFO][main][FilePageStoreManager] Resolved page store work directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:48:25,403][INFO][main][FileWriteAheadLogManager] Resolved write ahead log work directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/wal/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:48:25,403][INFO][main][FileWriteAheadLogManager] Resolved write ahead log archive directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/wal/archive/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:48:25,440][INFO][main][FileWriteAheadLogManager] Started write-ahead log manager [mode=LOG_ONLY]
+[17:48:25,601][INFO][main][GridCacheDatabaseSharedManager] Read checkpoint status [startMarker=null, endMarker=null]
+[17:48:25,631][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=12600, tableSize=994.0 KiB, checkpointBuffer=100.0 MiB]
+[17:48:25,639][INFO][main][GridCacheDatabaseSharedManager] Checking memory state [lastValidPos=FileWALPointer [idx=0, fileOff=0, len=0], lastMarked=FileWALPointer [idx=0, fileOff=0, len=0], lastCheckpointId=00000000-0000-0000-0000-000000000000]
+[17:48:25,682][INFO][main][GridCacheDatabaseSharedManager] Applying lost cache updates since last checkpoint record [lastMarked=FileWALPointer [idx=0, fileOff=0, len=0], lastCheckpointId=00000000-0000-0000-0000-000000000000]
+[17:48:25,683][INFO][main][GridCacheDatabaseSharedManager] Finished applying WAL changes [updatesApplied=0, time=0ms]
+[17:48:25,929][INFO][main][ClientListenerProcessor] Client connector processor has started on TCP port 10800
+[17:48:26,008][INFO][main][GridTcpRestProtocol] Command protocol successfully started [name=TCP binary, host=0.0.0.0/0.0.0.0, port=11211]
+[17:48:26,099][INFO][main][IgniteKernal] Non-loopback local IPs: 10.0.1.2, 10.0.2.15, fe80:0:0:0:a00:27ff:fe1e:fd50%eth1, fe80:0:0:0:a00:27ff:feac:8d09%eth0
+[17:48:26,099][INFO][main][IgniteKernal] Enabled local MACs: 0800271EFD50, 080027AC8D09
+[17:48:39,731][WARNING][main][IgniteKernal] Nodes started on local machine require more than 20% of physical RAM what can lead to significant slowdown due to swapping (please decrease JVM heap size, data region size or checkpoint buffer size) [required=6209MB, available=2001MB]
+[17:48:39,891][INFO][main][IgniteKernal] Performance suggestions for grid  (fix if possible)
+[17:48:39,892][INFO][main][IgniteKernal] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[17:48:39,899][INFO][main][IgniteKernal]   ^-- Enable G1 Garbage Collector (add '-XX:+UseG1GC' to JVM options)
+[17:48:39,899][INFO][main][IgniteKernal]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[17:48:39,899][INFO][main][IgniteKernal]   ^-- Disable processing of calls to System.gc() (add '-XX:+DisableExplicitGC' to JVM options)
+[17:48:39,900][INFO][main][IgniteKernal] Refer to this page for more performance suggestions: https://apacheignite.readme.io/docs/jvm-and-system-tuning
+[17:48:39,900][INFO][main][IgniteKernal] 
+[17:48:39,900][INFO][main][IgniteKernal] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[17:48:39,900][INFO][main][IgniteKernal] 
+[17:48:39,901][INFO][main][IgniteKernal] 
+
+>>> +---------------------------------+
+>>> Ignite ver. 2.6.0#19691231-sha1:DEV
+>>> +---------------------------------+
+>>> OS name: Linux 3.19.0-47-generic amd64
+>>> CPU(s): 1
+>>> Heap: 1.0GB
+>>> VM name: 5542@bigdatamaster
+>>> Local node [ID=8EEBE54B-3823-4AA0-BD94-76B6800C2513, order=1, clientMode=false]
+>>> Local node addresses: [bigdatamaster/0:0:0:0:0:0:0:1%lo, 10.0.2.15/10.0.1.2, /10.0.2.15, /127.0.0.1]
+>>> Local ports: TCP:10800 TCP:11211 TCP:47100 UDP:47400 TCP:47500 
+
+[17:48:39,904][INFO][main][IgniteKernal] >>> Ignite cluster is not active (limited functionality available). Use control.(sh|bat) script or IgniteCluster interface to activate.
+[17:48:39,924][INFO][main][GridDiscoveryManager] Topology snapshot [ver=1, servers=1, clients=0, CPUs=1, offheap=4.0GB, heap=1.0GB]
+[17:48:39,924][INFO][main][GridDiscoveryManager]   ^-- Node [id=8EEBE54B-3823-4AA0-BD94-76B6800C2513, clusterState=INACTIVE]
+[17:48:39,924][INFO][main][GridDiscoveryManager] Data Regions Configured:
+[17:48:39,924][INFO][main][GridDiscoveryManager]   ^-- default [initSize=500.0 MiB, maxSize=4.0 GiB, persistenceEnabled=true]
+[17:48:39,933][INFO][main][GridClusterStateProcessor] Sending activate request with BaselineTopology BaselineTopology [id=0, branchingHash=-1140463238, branchingType='New BaselineTopology', baselineNodes=[50cb028d-a4c5-4f6f-a569-4a39ed62eea1]]
+[17:48:40,016][INFO][tcp-disco-msg-worker-#3][GridClusterStateProcessor] Received activate request with BaselineTopology[id=0]
+[17:48:40,033][INFO][tcp-disco-msg-worker-#3][GridClusterStateProcessor] Started state transition: true
+[17:48:40,055][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=8eebe54b-3823-4aa0-bd94-76b6800c2513, customEvt=ChangeGlobalStateMessage [id=cb53a35fd61-82184fd6-1c66-4751-8c9d-3e50cbd729b7, reqId=557a0ed5-b8b2-4c51-9d7f-707cc96e044b, initiatingNodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, activate=true, baselineTopology=BaselineTopology [id=0, branchingHash=-1140463238, branchingType='New BaselineTopology', baselineNodes=[50cb028d-a4c5-4f6f-a569-4a39ed62eea1]], forceChangeBaselineTopology=false, timestamp=1571777319933], allowMerge=false]
+[17:48:40,056][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Start activation process [nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, client=false, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+[17:48:40,056][INFO][exchange-worker-#36][FilePageStoreManager] Resolved page store work directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:48:40,056][INFO][exchange-worker-#36][FileWriteAheadLogManager] Resolved write ahead log work directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/wal/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:48:40,056][INFO][exchange-worker-#36][FileWriteAheadLogManager] Resolved write ahead log archive directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/wal/archive/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:48:40,057][INFO][exchange-worker-#36][FileWriteAheadLogManager] Started write-ahead log manager [mode=LOG_ONLY]
+[17:48:40,072][INFO][exchange-worker-#36][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=12600, tableSize=994.0 KiB, checkpointBuffer=100.0 MiB]
+[17:48:40,128][INFO][exchange-worker-#36][PageMemoryImpl] Started page memory [memoryAllocated=4.0 GiB, pages=516172, tableSize=39.8 MiB, checkpointBuffer=1.0 GiB]
+[17:48:40,131][INFO][exchange-worker-#36][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=12600, tableSize=994.0 KiB, checkpointBuffer=100.0 MiB]
+[17:48:40,155][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Read checkpoint status [startMarker=null, endMarker=null]
+[17:48:40,156][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Checking memory state [lastValidPos=FileWALPointer [idx=0, fileOff=0, len=0], lastMarked=FileWALPointer [idx=0, fileOff=0, len=0], lastCheckpointId=00000000-0000-0000-0000-000000000000]
+[17:48:40,157][INFO][exchange-worker-#36][FileWriteAheadLogManager] Resuming logging to WAL segment [file=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/wal/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1/0000000000000000.wal, offset=0, ver=2]
+[17:48:40,194][INFO][exchange-worker-#36][GridClusterStateProcessor] Writing BaselineTopology[id=0]
+[17:48:40,594][INFO][exchange-worker-#36][GridCacheProcessor] Started cache [name=ignite-sys-cache, id=-2100569601, memoryPolicyName=sysMemPlc, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647]
+[17:48:40,597][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Successfully activated caches [nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, client=false, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+[17:48:40,620][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], waitTime=0ms, futInfo=NA]
+[17:48:40,625][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=[], super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]]
+[17:48:40,625][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], waitTime=0ms, futInfo=NA]
+[17:48:40,625][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Read checkpoint status [startMarker=null, endMarker=null]
+[17:48:40,626][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Applying lost cache updates since last checkpoint record [lastMarked=FileWALPointer [idx=0, fileOff=0, len=0], lastCheckpointId=00000000-0000-0000-0000-000000000000]
+[17:48:40,712][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Finished applying WAL changes [updatesApplied=0, time=88ms]
+[17:48:40,731][INFO][db-checkpoint-thread-#37][GridCacheDatabaseSharedManager] Checkpoint started [checkpointId=1cca59f0-b463-47cd-879a-0e7747c31c16, startPtr=FileWALPointer [idx=0, fileOff=105003, len=47], checkpointLockWait=0ms, checkpointLockHoldTime=3ms, walCpRecordFsyncDuration=6ms, pages=14, reason='node started']
+[17:48:40,762][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+[17:48:40,771][INFO][db-checkpoint-thread-#37][GridCacheDatabaseSharedManager] Checkpoint finished [cpId=1cca59f0-b463-47cd-879a-0e7747c31c16, pages=14, markPos=FileWALPointer [idx=0, fileOff=105003, len=47], walSegmentsCleared=0, markDuration=22ms, pagesWrite=25ms, fsync=10ms, total=57ms]
+[17:48:40,804][INFO][tcp-disco-msg-worker-#3][GridClusterStateProcessor] Received state change finish message: true
+[17:48:40,804][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], err=null]
+[17:48:40,821][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], crd=true]
+[17:48:40,837][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=1, minorTopVer=1], evt=DISCOVERY_CUSTOM_EVT, node=8eebe54b-3823-4aa0-bd94-76b6800c2513]
+[17:48:40,881][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=8eebe54b-3823-4aa0-bd94-76b6800c2513, customEvt=DynamicCacheChangeBatch [id=6c53a35fd61-82184fd6-1c66-4751-8c9d-3e50cbd729b7, reqs=[DynamicCacheChangeRequest [cacheName=Area-Cache, hasCfg=true, nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, clientStartOnly=false, stop=false, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=[Area-Cache], stopCaches=null, startGrps=[Area-Cache], stopGrps=[], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false]
+[17:48:40,917][INFO][sys-#42][GridClusterStateProcessor] Successfully performed final activation steps [nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, client=false, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+[17:48:41,297][INFO][exchange-worker-#36][GridCacheProcessor] Started cache [name=Area-Cache, id=1692017218, memoryPolicyName=default, mode=PARTITIONED, atomicity=ATOMIC, backups=0]
+[17:48:41,307][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], waitTime=0ms, futInfo=NA]
+[17:48:41,308][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=[], super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2]]]
+[17:48:41,309][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], waitTime=0ms, futInfo=NA]
+[17:48:41,501][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=2]]
+[17:48:41,539][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], err=null]
+[17:48:41,588][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], crd=true]
+[17:48:41,591][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (obsolete exchange ID) [top=AffinityTopologyVersion [topVer=1, minorTopVer=2], evt=DISCOVERY_CUSTOM_EVT, node=8eebe54b-3823-4aa0-bd94-76b6800c2513]
+[17:48:41,591][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=8eebe54b-3823-4aa0-bd94-76b6800c2513, customEvt=DynamicCacheChangeBatch [id=cc53a35fd61-82184fd6-1c66-4751-8c9d-3e50cbd729b7, reqs=[DynamicCacheChangeRequest [cacheName=Point-Cache, hasCfg=true, nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, clientStartOnly=false, stop=false, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=[Point-Cache], stopCaches=null, startGrps=[Point-Cache], stopGrps=[], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false]
+[17:48:41,631][INFO][pub-#46][GridCacheDatabaseSharedManager] Finished indexes rebuilding for cache [name=Area-Cache, grpName=null]
+[17:48:41,878][INFO][exchange-worker-#36][GridCacheProcessor] Started cache [name=Point-Cache, id=790455493, memoryPolicyName=default, mode=PARTITIONED, atomicity=ATOMIC, backups=0]
+[17:48:41,881][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], waitTime=0ms, futInfo=NA]
+[17:48:41,882][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=[], super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3]]]
+[17:48:41,882][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], waitTime=0ms, futInfo=NA]
+[17:48:42,050][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=3]]
+[17:48:42,169][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], err=null]
+[17:48:42,190][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Finished indexes rebuilding for cache [name=Point-Cache, grpName=null]
+[17:48:42,202][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], crd=true]
+[17:48:42,205][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (obsolete exchange ID) [top=AffinityTopologyVersion [topVer=1, minorTopVer=3], evt=DISCOVERY_CUSTOM_EVT, node=8eebe54b-3823-4aa0-bd94-76b6800c2513]
+[17:48:42,224][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=4], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=8eebe54b-3823-4aa0-bd94-76b6800c2513, customEvt=DynamicCacheChangeBatch [id=4d53a35fd61-82184fd6-1c66-4751-8c9d-3e50cbd729b7, reqs=[DynamicCacheChangeRequest [cacheName=Edge-Cache, hasCfg=true, nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, clientStartOnly=false, stop=false, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=[Edge-Cache], stopCaches=null, startGrps=[Edge-Cache], stopGrps=[], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false]
+[17:48:42,464][INFO][exchange-worker-#36][GridCacheProcessor] Started cache [name=Edge-Cache, id=-1113777294, memoryPolicyName=default, mode=PARTITIONED, atomicity=ATOMIC, backups=0]
+[17:48:42,474][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=4], waitTime=0ms, futInfo=NA]
+[17:48:42,474][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=[], super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=4]]]
+[17:48:42,474][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=4], waitTime=0ms, futInfo=NA]
+[17:48:42,609][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=4], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=4]]
+[17:48:42,688][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=4], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=4], err=null]
+[17:48:42,697][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Finished indexes rebuilding for cache [name=Edge-Cache, grpName=null]
+[17:48:42,712][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=4], crd=true]
+[17:48:42,718][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (obsolete exchange ID) [top=AffinityTopologyVersion [topVer=1, minorTopVer=4], evt=DISCOVERY_CUSTOM_EVT, node=8eebe54b-3823-4aa0-bd94-76b6800c2513]
+[17:48:42,718][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=5], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=8eebe54b-3823-4aa0-bd94-76b6800c2513, customEvt=DynamicCacheChangeBatch [id=ad53a35fd61-82184fd6-1c66-4751-8c9d-3e50cbd729b7, reqs=[DynamicCacheChangeRequest [cacheName=WaterArea-Cache, hasCfg=true, nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, clientStartOnly=false, stop=false, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=[WaterArea-Cache], stopCaches=null, startGrps=[WaterArea-Cache], stopGrps=[], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false]
+[17:48:42,884][INFO][exchange-worker-#36][GridCacheProcessor] Started cache [name=WaterArea-Cache, id=-306090375, memoryPolicyName=default, mode=PARTITIONED, atomicity=ATOMIC, backups=0]
+[17:48:42,920][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=5], waitTime=0ms, futInfo=NA]
+[17:48:42,921][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=[], super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=5]]]
+[17:48:42,921][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=5], waitTime=0ms, futInfo=NA]
+[17:48:43,095][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=5], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=5]]
+[17:48:43,178][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=5], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=5], err=null]
+[17:48:43,190][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Finished indexes rebuilding for cache [name=WaterArea-Cache, grpName=null]
+[17:48:43,207][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=5], crd=true]
+[17:48:43,265][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=1, minorTopVer=5], evt=DISCOVERY_CUSTOM_EVT, node=8eebe54b-3823-4aa0-bd94-76b6800c2513]
+[17:48:44,805][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=6], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=8eebe54b-3823-4aa0-bd94-76b6800c2513, customEvt=DynamicCacheChangeBatch [id=1e53a35fd61-82184fd6-1c66-4751-8c9d-3e50cbd729b7, reqs=[DynamicCacheChangeRequest [cacheName=Area-Cache, hasCfg=false, nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, clientStartOnly=false, stop=true, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=null, stopCaches=[Area-Cache], startGrps=[], stopGrps=[Area-Cache, destroy=true], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false]
+[17:48:44,815][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=6], waitTime=0ms, futInfo=NA]
+[17:48:44,815][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=[], super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=6]]]
+[17:48:44,815][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=6], waitTime=0ms, futInfo=NA]
+[17:48:44,888][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=6], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=6]]
+[17:48:45,050][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=6], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=6], err=null]
+[17:48:45,176][INFO][db-checkpoint-thread-#37][GridCacheDatabaseSharedManager] Checkpoint started [checkpointId=d1167574-1c0e-48c0-8848-88a484bcbebf, startPtr=FileWALPointer [idx=0, fileOff=803710, len=157619], checkpointLockWait=0ms, checkpointLockHoldTime=55ms, walCpRecordFsyncDuration=24ms, pages=92, reason='caches stop']
+[17:48:45,301][INFO][db-checkpoint-thread-#37][GridCacheDatabaseSharedManager] Checkpoint finished [cpId=d1167574-1c0e-48c0-8848-88a484bcbebf, pages=92, markPos=FileWALPointer [idx=0, fileOff=803710, len=157619], walSegmentsCleared=0, markDuration=99ms, pagesWrite=57ms, fsync=68ms, total=224ms]
+[17:48:45,388][INFO][exchange-worker-#36][GridCacheProcessor] Stopped cache [cacheName=Area-Cache]
+[17:48:45,614][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=6], crd=true]
+[17:48:45,622][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (obsolete exchange ID) [top=AffinityTopologyVersion [topVer=1, minorTopVer=6], evt=DISCOVERY_CUSTOM_EVT, node=8eebe54b-3823-4aa0-bd94-76b6800c2513]
+[17:48:45,622][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=7], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=8eebe54b-3823-4aa0-bd94-76b6800c2513, customEvt=DynamicCacheChangeBatch [id=5e53a35fd61-82184fd6-1c66-4751-8c9d-3e50cbd729b7, reqs=[DynamicCacheChangeRequest [cacheName=Point-Cache, hasCfg=false, nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, clientStartOnly=false, stop=true, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=null, stopCaches=[Point-Cache], startGrps=[], stopGrps=[Point-Cache, destroy=true], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false]
+[17:48:45,645][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=7], waitTime=0ms, futInfo=NA]
+[17:48:45,645][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=[], super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=7]]]
+[17:48:45,645][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=7], waitTime=0ms, futInfo=NA]
+[17:48:45,669][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=7], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=7]]
+[17:48:45,720][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=7], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=7], err=null]
+[17:48:45,736][INFO][db-checkpoint-thread-#37][GridCacheDatabaseSharedManager] Skipping checkpoint (no pages were modified) [checkpointLockWait=0ms, checkpointLockHoldTime=13ms, reason='caches stop']
+[17:48:45,739][INFO][exchange-worker-#36][GridCacheProcessor] Stopped cache [cacheName=Point-Cache]
+[17:48:45,850][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=7], crd=true]
+[17:48:45,875][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (obsolete exchange ID) [top=AffinityTopologyVersion [topVer=1, minorTopVer=7], evt=DISCOVERY_CUSTOM_EVT, node=8eebe54b-3823-4aa0-bd94-76b6800c2513]
+[17:48:45,875][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=8], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=8eebe54b-3823-4aa0-bd94-76b6800c2513, customEvt=DynamicCacheChangeBatch [id=be53a35fd61-82184fd6-1c66-4751-8c9d-3e50cbd729b7, reqs=[DynamicCacheChangeRequest [cacheName=Edge-Cache, hasCfg=false, nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, clientStartOnly=false, stop=true, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=null, stopCaches=[Edge-Cache], startGrps=[], stopGrps=[Edge-Cache, destroy=true], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false]
+[17:48:45,879][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=8], waitTime=0ms, futInfo=NA]
+[17:48:45,879][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=[], super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=8]]]
+[17:48:45,881][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=8], waitTime=0ms, futInfo=NA]
+[17:48:45,890][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=8], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=8]]
+[17:48:45,909][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=8], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=8], err=null]
+[17:48:45,915][INFO][db-checkpoint-thread-#37][GridCacheDatabaseSharedManager] Skipping checkpoint (no pages were modified) [checkpointLockWait=0ms, checkpointLockHoldTime=2ms, reason='caches stop']
+[17:48:45,926][INFO][exchange-worker-#36][GridCacheProcessor] Stopped cache [cacheName=Edge-Cache]
+[17:48:45,946][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=8], crd=true]
+[17:48:45,947][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (obsolete exchange ID) [top=AffinityTopologyVersion [topVer=1, minorTopVer=8], evt=DISCOVERY_CUSTOM_EVT, node=8eebe54b-3823-4aa0-bd94-76b6800c2513]
+[17:48:45,947][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=9], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=8eebe54b-3823-4aa0-bd94-76b6800c2513, customEvt=DynamicCacheChangeBatch [id=fe53a35fd61-82184fd6-1c66-4751-8c9d-3e50cbd729b7, reqs=[DynamicCacheChangeRequest [cacheName=WaterArea-Cache, hasCfg=false, nodeId=8eebe54b-3823-4aa0-bd94-76b6800c2513, clientStartOnly=false, stop=true, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=null, stopCaches=[WaterArea-Cache], startGrps=[], stopGrps=[WaterArea-Cache, destroy=true], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false]
+[17:48:45,953][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=9], waitTime=0ms, futInfo=NA]
+[17:48:45,953][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=[], super=CompletableLatch [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=9]]]
+[17:48:45,953][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=9], waitTime=0ms, futInfo=NA]
+[17:48:45,954][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=9], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=9]]
+[17:48:45,957][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=9], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=9], err=null]
+[17:48:45,968][INFO][exchange-worker-#36][GridCacheProcessor] Stopped cache [cacheName=WaterArea-Cache]
+[17:48:46,025][INFO][exchange-worker-#36][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=9], crd=true]
+[17:48:46,025][INFO][exchange-worker-#36][GridCachePartitionExchangeManager] Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=1, minorTopVer=9], evt=DISCOVERY_CUSTOM_EVT, node=8eebe54b-3823-4aa0-bd94-76b6800c2513]
+[17:48:46,029][INFO][main][GridTcpRestProtocol] Command protocol successfully stopped: TCP binary
+[17:48:46,055][INFO][db-checkpoint-thread-#37][GridCacheDatabaseSharedManager] Skipping checkpoint (no pages were modified) [checkpointLockWait=0ms, checkpointLockHoldTime=1ms, reason='timeout']
+[17:48:46,059][INFO][main][GridCacheProcessor] Stopped cache [cacheName=ignite-sys-cache]
+[17:48:46,086][INFO][main][IgniteKernal] 
+
+>>> +--------------------------------------------+
+>>> Ignite ver. 2.6.0#19691231-sha1:DEV stopped OK
+>>> +--------------------------------------------+
+>>> Grid uptime: 00:00:06.207
+
+

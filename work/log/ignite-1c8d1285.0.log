@@ -1,0 +1,126 @@
+[17:50:55,726][INFO][main][IgniteKernal] 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 2.6.0#19691231-sha1:DEV
+>>> 2018 Copyright(C) Apache Software Foundation
+>>> 
+>>> Ignite documentation: http://ignite.apache.org
+
+[17:50:55,772][INFO][main][IgniteKernal] Config URL: file:/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/config/default-config.xml
+[17:50:55,821][INFO][main][IgniteKernal] IgniteConfiguration [igniteInstanceName=null, pubPoolSize=8, svcPoolSize=8, callbackPoolSize=8, stripedPoolSize=8, sysPoolSize=8, mgmtPoolSize=4, igfsPoolSize=1, dataStreamerPoolSize=8, utilityCachePoolSize=8, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=8, igniteHome=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New, igniteWorkDir=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@48a242ce, nodeId=1c8d1285-5c13-4dac-9b16-754850705074, marsh=org.apache.ignite.internal.binary.BinaryMarshaller@fbd1f6, marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, sockTimeout=0, ackTimeout=0, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null], segPlc=STOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=null, connPlc=null, enableForcibleNodeKill=false, enableTroubleshootingLog=false, srvLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi$2@61322f9d, locAddr=null, locHost=null, locPort=47100, locPortRange=100, shmemPort=-1, directBuf=true, directSndBuf=false, idleConnTimeout=600000, connTimeout=5000, maxConnTimeout=600000, reconCnt=10, sockSndBuf=32768, sockRcvBuf=32768, msgQueueLimit=0, slowClientQueueLimit=0, nioSrvr=null, shmemSrv=null, usePairedConnections=false, connectionsPerNode=1, tcpNoDelay=true, filterReachableAddresses=false, ackSndThreshold=32, unackedMsgsBufSize=0, sockWriteTimeout=2000, lsnr=null, boundTcpPort=-1, boundTcpShmemPort=-1, selectorsCnt=4, selectorSpins=0, addrRslvr=null, ctxInitLatch=java.util.concurrent.CountDownLatch@6ad82709[Count = 1], stopping=false, metricsLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationMetricsListener@510f3d34], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@7817fd62, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [lsnr=null], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@fa4c865, addrRslvr=null, clientMode=false, rebalanceThreadPoolSize=1, txCfg=org.apache.ignite.configuration.TransactionConfiguration@3bd82cf5, cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, clientFailureDetectionTimeout=30000, metricsLogFreq=60000, hadoopCfg=null, connectorCfg=org.apache.ignite.configuration.ConnectorConfiguration@544fa968, odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=null, binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=DataStorageConfiguration [sysRegionInitSize=41943040, sysCacheMaxSize=104857600, pageSize=8192, concLvl=4, dfltDataRegConf=DataRegionConfiguration [name=default, maxSize=4294967296, initSize=524288000, swapPath=null, pageEvictionMode=DISABLED, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=true, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=true, checkpointPageBufSize=0], storagePath=null, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, walSegments=10, walSegmentSize=67108864, walPath=db/wal, walArchivePath=db/wal/archive, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=131072, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.AsyncFileIOFactory@d35dea7, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, writeThrottlingEnabled=false, walCompactionEnabled=false], activeOnStart=true, autoActivation=true, longQryWarnTimeout=3000, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=8, idleTimeout=0, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null], authEnabled=false, failureHnd=null, commFailureRslvr=null]
+[17:50:55,824][INFO][main][IgniteKernal] Daemon mode: off
+[17:50:55,826][INFO][main][IgniteKernal] OS: Linux 3.19.0-47-generic amd64
+[17:50:55,826][INFO][main][IgniteKernal] OS user: bigdata
+[17:50:55,836][INFO][main][IgniteKernal] PID: 2664
+[17:50:55,838][INFO][main][IgniteKernal] Language runtime: Java Platform API Specification ver. 1.8
+[17:50:55,838][INFO][main][IgniteKernal] VM information: Java(TM) SE Runtime Environment 1.8.0_65-b17 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.65-b01
+[17:50:55,839][INFO][main][IgniteKernal] VM total memory: 0.97GB
+[17:50:55,840][INFO][main][IgniteKernal] Remote Management [restart: off, REST: on, JMX (remote: off)]
+[17:50:55,840][INFO][main][IgniteKernal] Logger: JavaLogger [quiet=true, config=null]
+[17:50:55,840][INFO][main][IgniteKernal] IGNITE_HOME=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New
+[17:50:55,841][INFO][main][IgniteKernal] VM arguments: [-Xmx1g, -Xms512m]
+[17:50:55,841][INFO][main][IgniteKernal] System cache's DataRegion size is configured to 40 MB. Use DataStorageConfiguration.systemCacheMemorySize property to change the setting.
+[17:50:55,900][INFO][main][IgniteKernal] Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache']]
+[17:50:55,939][INFO][main][IgniteKernal] 3-rd party licenses can be found at: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/libs/licenses
+[17:50:56,227][INFO][main][IgnitePluginProcessor] Configured plugins:
+[17:50:56,227][INFO][main][IgnitePluginProcessor]   ^-- None
+[17:50:56,227][INFO][main][IgnitePluginProcessor] 
+[17:50:56,231][INFO][main][FailureProcessor] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0]]
+[17:50:56,402][INFO][main][TcpCommunicationSpi] Successfully bound communication NIO server to TCP port [port=47100, locHost=0.0.0.0/0.0.0.0, selectorsCnt=4, selectorSpins=0, pairedConn=false]
+[17:51:01,441][WARNING][main][TcpCommunicationSpi] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[17:51:01,518][WARNING][main][NoopCheckpointSpi] Checkpoints are disabled (to enable configure any GridCheckpointSpi implementation)
+[17:51:01,556][WARNING][main][GridCollisionManager] Collision resolution is disabled (all jobs will be activated upon arrival).
+[17:51:01,557][INFO][main][IgniteKernal] Security status [authentication=off, tls/ssl=off]
+[17:51:01,665][INFO][main][TcpDiscoverySpi] Successfully bound to TCP port [port=47500, localHost=0.0.0.0/0.0.0.0, locNodeId=1c8d1285-5c13-4dac-9b16-754850705074]
+[17:51:01,706][INFO][main][PdsFoldersResolver] Successfully locked persistence storage folder [/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1]
+[17:51:01,707][INFO][main][PdsFoldersResolver] Consistent ID used for local node is [50cb028d-a4c5-4f6f-a569-4a39ed62eea1] according to persistence data storage folders
+[17:51:01,722][INFO][main][CacheObjectBinaryProcessorImpl] Resolved directory for serialized binary metadata: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/binary_meta/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:51:02,205][INFO][main][FilePageStoreManager] Resolved page store work directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:51:02,205][INFO][main][FileWriteAheadLogManager] Resolved write ahead log work directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/wal/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:51:02,206][INFO][main][FileWriteAheadLogManager] Resolved write ahead log archive directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/wal/archive/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:51:02,235][INFO][main][FileWriteAheadLogManager] Started write-ahead log manager [mode=LOG_ONLY]
+[17:51:02,420][INFO][main][GridCacheDatabaseSharedManager] Read checkpoint status [startMarker=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1/cp/1572582142285-886aa68f-dfb4-4bbc-870d-7daf171c957c-START.bin, endMarker=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1/cp/1572581922309-56f66345-f063-4b30-aee2-338cfe770e46-END.bin]
+[17:51:02,508][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=12600, tableSize=994.0 KiB, checkpointBuffer=100.0 MiB]
+[17:51:02,509][INFO][main][GridCacheDatabaseSharedManager] Checking memory state [lastValidPos=FileWALPointer [idx=0, fileOff=7061372, len=47], lastMarked=FileWALPointer [idx=11, fileOff=25084492, len=157619], lastCheckpointId=886aa68f-dfb4-4bbc-870d-7daf171c957c]
+[17:51:02,511][WARNING][main][GridCacheDatabaseSharedManager] Ignite node stopped in the middle of checkpoint. Will restore memory state and finish checkpoint on node start.
+[17:51:08,011][INFO][main][GridCacheDatabaseSharedManager] Found last checkpoint marker [cpId=886aa68f-dfb4-4bbc-870d-7daf171c957c, pos=FileWALPointer [idx=11, fileOff=25084492, len=157619]]
+[17:51:08,290][WARNING][main][FileWriteAheadLogManager] WAL segment tail is reached. [ Expected next state: {Index=12,Offset=28519466}, Actual state : {Index=-378198982804661032,Offset=-8796094} ]
+[17:51:08,364][INFO][main][GridCacheDatabaseSharedManager] Applying lost cache updates since last checkpoint record [lastMarked=FileWALPointer [idx=11, fileOff=25084492, len=157619], lastCheckpointId=886aa68f-dfb4-4bbc-870d-7daf171c957c]
+[17:51:08,606][WARNING][main][FileWriteAheadLogManager] WAL segment tail is reached. [ Expected next state: {Index=12,Offset=28519466}, Actual state : {Index=-378198982804661032,Offset=-8796094} ]
+[17:51:08,606][INFO][main][GridCacheDatabaseSharedManager] Finished applying WAL changes [updatesApplied=0, time=240ms]
+[17:51:08,690][INFO][main][GridClusterStateProcessor] Restoring history for BaselineTopology[id=0]
+[17:51:09,012][INFO][main][ClientListenerProcessor] Client connector processor has started on TCP port 10800
+[17:51:09,087][INFO][main][GridTcpRestProtocol] Command protocol successfully started [name=TCP binary, host=0.0.0.0/0.0.0.0, port=11211]
+[17:51:09,192][INFO][main][IgniteKernal] Non-loopback local IPs: 10.0.1.2, 10.0.2.15, fe80:0:0:0:a00:27ff:fe1e:fd50%eth1, fe80:0:0:0:a00:27ff:feac:8d09%eth0
+[17:51:09,192][INFO][main][IgniteKernal] Enabled local MACs: 0800271EFD50, 080027AC8D09
+[17:51:10,607][INFO][main][GridClusterStateProcessor] Sending activate request with BaselineTopology BaselineTopology [id=0, branchingHash=-1140463238, branchingType='Cluster activation', baselineNodes=[50cb028d-a4c5-4f6f-a569-4a39ed62eea1]]
+[17:51:10,704][INFO][tcp-disco-msg-worker-#3][GridClusterStateProcessor] Received activate request with BaselineTopology[id=0]
+[17:51:10,708][INFO][tcp-disco-msg-worker-#3][GridClusterStateProcessor] Started state transition: true
+[17:51:10,715][WARNING][main][IgniteKernal] Nodes started on local machine require more than 20% of physical RAM what can lead to significant slowdown due to swapping (please decrease JVM heap size, data region size or checkpoint buffer size) [required=6209MB, available=2001MB]
+[17:51:10,839][INFO][exchange-worker-#36][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=1c8d1285-5c13-4dac-9b16-754850705074, customEvt=ChangeGlobalStateMessage [id=dd6df333e61-49c39789-0c68-47d6-bc81-de2582296ff2, reqId=1eeb8ac3-dc41-433d-8eb2-8fe1239b7fd6, initiatingNodeId=1c8d1285-5c13-4dac-9b16-754850705074, activate=true, baselineTopology=BaselineTopology [id=0, branchingHash=-1140463238, branchingType='Cluster activation', baselineNodes=[50cb028d-a4c5-4f6f-a569-4a39ed62eea1]], forceChangeBaselineTopology=false, timestamp=1572817870607], allowMerge=false]
+[17:51:10,840][INFO][exchange-worker-#36][GridDhtPartitionsExchangeFuture] Start activation process [nodeId=1c8d1285-5c13-4dac-9b16-754850705074, client=false, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+[17:51:10,861][INFO][exchange-worker-#36][FilePageStoreManager] Resolved page store work directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:51:10,861][INFO][exchange-worker-#36][FileWriteAheadLogManager] Resolved write ahead log work directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/wal/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:51:10,862][INFO][exchange-worker-#36][FileWriteAheadLogManager] Resolved write ahead log archive directory: /home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/wal/archive/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1
+[17:51:10,864][INFO][exchange-worker-#36][FileWriteAheadLogManager] Started write-ahead log manager [mode=LOG_ONLY]
+[17:51:10,917][INFO][exchange-worker-#36][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=12600, tableSize=994.0 KiB, checkpointBuffer=100.0 MiB]
+[17:51:10,935][INFO][exchange-worker-#36][PageMemoryImpl] Started page memory [memoryAllocated=4.0 GiB, pages=516172, tableSize=39.8 MiB, checkpointBuffer=1.0 GiB]
+[17:51:10,936][INFO][exchange-worker-#36][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=12600, tableSize=994.0 KiB, checkpointBuffer=100.0 MiB]
+[17:51:10,942][INFO][main][IgniteKernal] Performance suggestions for grid  (fix if possible)
+[17:51:10,942][INFO][main][IgniteKernal] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[17:51:10,942][INFO][main][IgniteKernal]   ^-- Enable G1 Garbage Collector (add '-XX:+UseG1GC' to JVM options)
+[17:51:10,942][INFO][main][IgniteKernal]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[17:51:10,942][INFO][main][IgniteKernal]   ^-- Disable processing of calls to System.gc() (add '-XX:+DisableExplicitGC' to JVM options)
+[17:51:10,942][INFO][main][IgniteKernal] Refer to this page for more performance suggestions: https://apacheignite.readme.io/docs/jvm-and-system-tuning
+[17:51:10,943][INFO][main][IgniteKernal] 
+[17:51:10,943][INFO][main][IgniteKernal] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[17:51:10,943][INFO][main][IgniteKernal] 
+[17:51:10,974][INFO][main][IgniteKernal] 
+
+>>> +---------------------------------+
+>>> Ignite ver. 2.6.0#19691231-sha1:DEV
+>>> +---------------------------------+
+>>> OS name: Linux 3.19.0-47-generic amd64
+>>> CPU(s): 1
+>>> Heap: 0.97GB
+>>> VM name: 2664@bigdatamaster
+>>> Local node [ID=1C8D1285-5C13-4DAC-9B16-754850705074, order=1, clientMode=false]
+>>> Local node addresses: [bigdatamaster/0:0:0:0:0:0:0:1%lo, 10.0.2.15/10.0.1.2, /10.0.2.15, /127.0.0.1]
+>>> Local ports: TCP:10800 TCP:11211 TCP:47100 UDP:47400 TCP:47500 
+
+[17:51:10,982][INFO][main][GridDiscoveryManager] Topology snapshot [ver=1, servers=1, clients=0, CPUs=1, offheap=4.0GB, heap=0.97GB]
+[17:51:10,982][INFO][main][GridDiscoveryManager]   ^-- Node [id=1C8D1285-5C13-4DAC-9B16-754850705074, clusterState=INACTIVE]
+[17:51:10,982][INFO][main][GridDiscoveryManager]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+[17:51:10,982][INFO][main][GridDiscoveryManager]   ^-- All baseline nodes are online, will start auto-activation
+[17:51:10,982][INFO][main][GridDiscoveryManager] Data Regions Configured:
+[17:51:10,982][INFO][main][GridDiscoveryManager]   ^-- default [initSize=500.0 MiB, maxSize=4.0 GiB, persistenceEnabled=true]
+[17:51:12,281][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Read checkpoint status [startMarker=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1/cp/1572582142285-886aa68f-dfb4-4bbc-870d-7daf171c957c-START.bin, endMarker=/home/bigdata/SpatialIgniteCode/IgniteSpatial_New/work/db/node00-50cb028d-a4c5-4f6f-a569-4a39ed62eea1/cp/1572581922309-56f66345-f063-4b30-aee2-338cfe770e46-END.bin]
+[17:51:12,282][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Checking memory state [lastValidPos=FileWALPointer [idx=0, fileOff=7061372, len=47], lastMarked=FileWALPointer [idx=11, fileOff=25084492, len=157619], lastCheckpointId=886aa68f-dfb4-4bbc-870d-7daf171c957c]
+[17:51:12,282][WARNING][exchange-worker-#36][GridCacheDatabaseSharedManager] Ignite node stopped in the middle of checkpoint. Will restore memory state and finish checkpoint on node start.
+[17:51:22,243][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Found last checkpoint marker [cpId=886aa68f-dfb4-4bbc-870d-7daf171c957c, pos=FileWALPointer [idx=11, fileOff=25084492, len=157619]]
+[17:51:22,802][WARNING][exchange-worker-#36][FileWriteAheadLogManager] WAL segment tail is reached. [ Expected next state: {Index=12,Offset=28519466}, Actual state : {Index=-378198982804661032,Offset=-8796094} ]
+[17:51:22,802][INFO][exchange-worker-#36][GridCacheDatabaseSharedManager] Finished applying memory changes [changesApplied=2325888, time=10500ms]
+[17:51:23,401][SEVERE][exchange-worker-#36][] Critical system error detected. Will be handled accordingly to configured handler [hnd=class o.a.i.failure.StopNodeOrHaltFailureHandler, failureCtx=FailureContext [type=CRITICAL_ERROR, err=class o.a.i.i.processors.cache.persistence.file.PersistentStorageIOException: File check failed]]
+class org.apache.ignite.internal.processors.cache.persistence.file.PersistentStorageIOException: File check failed
+	at org.apache.ignite.internal.processors.cache.persistence.file.FilePageStore.checkFile(FilePageStore.java:228)
+	at org.apache.ignite.internal.processors.cache.persistence.file.FilePageStore.init(FilePageStore.java:439)
+	at org.apache.ignite.internal.processors.cache.persistence.file.FilePageStore.write(FilePageStore.java:478)
+	at org.apache.ignite.internal.processors.cache.persistence.file.FilePageStoreManager.writeInternal(FilePageStoreManager.java:385)
+	at org.apache.ignite.internal.processors.cache.persistence.GridCacheDatabaseSharedManager.finalizeCheckpointOnRecovery(GridCacheDatabaseSharedManager.java:2568)
+	at org.apache.ignite.internal.processors.cache.persistence.GridCacheDatabaseSharedManager.restoreMemory(GridCacheDatabaseSharedManager.java:2128)
+	at org.apache.ignite.internal.processors.cache.persistence.GridCacheDatabaseSharedManager.restoreMemory(GridCacheDatabaseSharedManager.java:1929)
+	at org.apache.ignite.internal.processors.cache.persistence.GridCacheDatabaseSharedManager.readCheckpointAndRestoreMemory(GridCacheDatabaseSharedManager.java:755)
+	at org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture.onClusterStateChangeRequest(GridDhtPartitionsExchangeFuture.java:894)
+	at org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture.init(GridDhtPartitionsExchangeFuture.java:641)
+	at org.apache.ignite.internal.processors.cache.GridCachePartitionExchangeManager$ExchangeWorker.body0(GridCachePartitionExchangeManager.java:2419)
+	at org.apache.ignite.internal.processors.cache.GridCachePartitionExchangeManager$ExchangeWorker.body(GridCachePartitionExchangeManager.java:2299)
+	at org.apache.ignite.internal.util.worker.GridWorker.run(GridWorker.java:110)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Failed to verify store file (invalid file size) [fileSize=00000000001a3000, pageSize=0000000000002000]
+	at org.apache.ignite.internal.processors.cache.persistence.file.FilePageStore.checkFile(FilePageStore.java:223)
+	... 13 more
+[17:51:23,405][SEVERE][exchange-worker-#36][] JVM will be halted immediately due to the failure: [failureCtx=FailureContext [type=CRITICAL_ERROR, err=class o.a.i.i.processors.cache.persistence.file.PersistentStorageIOException: File check failed]]
